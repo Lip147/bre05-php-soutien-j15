@@ -1,7 +1,7 @@
 <?php
 
 class Animal {
-    protected $nom;
+    private $nom;
 
     public function __construct($nom) {
         $this->nom = $nom;
